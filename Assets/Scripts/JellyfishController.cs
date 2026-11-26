@@ -124,7 +124,8 @@ public class JellyfishController : MonoBehaviour
         {
             var m = _renderer.sharedMaterial;
             if (m.HasProperty("emissiveFactor")) _emitProp = "emissiveFactor";
-            else if (m.HasProperty("_EmissionColor")) _emitProp = "_EmissionColor";
+            else if (m.HasProperty("_EmissiveColor")) _emitProp = "_EmissiveColor";   // HDRP Lit
+            else if (m.HasProperty("_EmissionColor")) _emitProp = "_EmissionColor";   // URP / Built-in
             if (_emitProp == "_EmissionColor") m.EnableKeyword("_EMISSION");
             _mpb = new MaterialPropertyBlock();
         }

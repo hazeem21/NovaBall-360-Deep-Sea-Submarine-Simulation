@@ -50,8 +50,8 @@ public class ZoneRoamer : MonoBehaviour
             clipPlayable.SetApplyFootIK(false);
             output.SetSourcePlayable(clipPlayable);
             clipPlayable.SetTime(Random.value * clip.length); // desync identical creatures
-            clipPlayable.SetSpeed(animSpeed);
-            graph.Play();
+            // We drive the graph ourselves every frame (Manual mode): reliable in the editor, in Play mode and in VR builds.
+            graph.SetTimeUpdateMode(DirectorUpdateMode.Manual);
             hasGraph = true;
         }
     }
@@ -67,11 +67,13 @@ public class ZoneRoamer : MonoBehaviour
 
     void Update()
     {
-        // loop the clip manually (playables don't wrap on their own)
+        // advance and loop the built-in clip
         if (hasGraph && clip.length > 0f)
         {
-            double t = clipPlayable.GetTime();
-            if (t > clip.length) clipPlayable.SetTime(t % clip.length);
+            double t = clipPlayable.GetTime() + Time.deltaTime * animSpeed;
+            if (t > clip.length) t %= clip.length;
+            clipPlayable.SetTime(t);
+            graph.Evaluate(0f);
         }
         if (!swim) return;
 
