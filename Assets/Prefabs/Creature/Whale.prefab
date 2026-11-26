@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &499289382162471054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -150594945148361037, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -150594945148361037, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -150594945148361037, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -150594945148361037, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -150594945148361037, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -150594945148361037, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: -150594945148361037, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -150594945148361037, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -150594945148361037, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -150594945148361037, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -150594945148361037, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -150594945148361037, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -150594945148361037, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7628333686471418637, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      propertyPath: m_Name
+      value: Whale
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7628333686471418637, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8245524727001432630}
+    - targetCorrespondingSourceObject: {fileID: 7628333686471418637, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5184965671831396788}
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+--- !u!4 &673510475288273190 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1131845212367550888, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1015814033846176753 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8577896625942752385, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1057659496800637658 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 594574903038298708, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1488523224538153068 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7906738816051898142, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1626283547428720828 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8035427474107660238, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1929989297360212451 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7195232651842877075, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2871076445644545322 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6830331309243939420, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3311381595050744276 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3105708066489696602, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3819583620151715427 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5481947148454969619, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4107209084300411183 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4750618201030600287, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4768563571351067343 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4269269228230245823, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5325449011085076501 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3527973664999509861, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6104782753477753727 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5932752116494099441, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8012075389984537475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7628333686471418637, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8245524727001432630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012075389984537475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fafd2bb14a4ad04f85cdba5f06f3869, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SharkSwimController
+  speed: 0.15
+  turn: 0
+  useKeyboard: 0
+  cruiseFrequency: 0.2
+  burstFrequency: 0.45
+  amplitude: 0.16
+  burstAmplitudeMultiplier: 1.35
+  waveLength: 1.5
+  responseTime: 0.4
+  swimPlane: 1
+  rigidFront: 0.45
+  bendExponent: 1.6
+  headYaw: 1.5
+  maxTurnBend: 10
+  frontTurnFlex: 0.35
+  driveMovement: 1
+  autoWander: 1
+  wanderRadius: 45
+  wanderDepthRange: 4
+  cruiseBodyLengthsPerSecond: 0.15
+  burstBodyLengthsPerSecond: 0.45
+  turnRate: 8
+  spineBones:
+  - {fileID: 1015814033846176753}
+  - {fileID: 3311381595050744276}
+  - {fileID: 1626283547428720828}
+  - {fileID: 6104782753477753727}
+  - {fileID: 1057659496800637658}
+  - {fileID: 1488523224538153068}
+  - {fileID: 4768563571351067343}
+  - {fileID: 673510475288273190}
+  - {fileID: 4107209084300411183}
+  - {fileID: 1929989297360212451}
+  pivotBone: {fileID: 3311381595050744276}
+  headIsBackward: 0
+--- !u!114 &5184965671831396788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8012075389984537475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7004dd4978ab98949b5093b6c0921d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FinOscillator
+  frequency: 0.2
+  entries:
+  - bone: {fileID: 3819583620151715427}
+    axis: {x: 0, y: 0, z: 1}
+    amplitude: 6
+    offset: 0
+    phase: 0
+    frequencyScale: 1
+    noise: 0.3
+  - bone: {fileID: 5325449011085076501}
+    axis: {x: 0, y: 0, z: 1}
+    amplitude: -6
+    offset: 0
+    phase: 0
+    frequencyScale: 1
+    noise: 0.3
+  - bone: {fileID: 2871076445644545322}
+    axis: {x: 1, y: 0, z: 0}
+    amplitude: 4
+    offset: 0
+    phase: 0.15
+    frequencyScale: 1
+    noise: 0.3
+  - bone: {fileID: 8879369708690198668}
+    axis: {x: 1, y: 0, z: 0}
+    amplitude: 4
+    offset: 0
+    phase: 0.15
+    frequencyScale: 1
+    noise: 0.3
+--- !u!4 &8879369708690198668 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -156483900590471166, guid: cdfb27b523ccca1439bd1b6976aff0d6, type: 3}
+  m_PrefabInstance: {fileID: 499289382162471054}
+  m_PrefabAsset: {fileID: 0}
